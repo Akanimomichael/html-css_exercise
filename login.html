@@ -32,23 +32,25 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <section>
-      <div class="bg-img">
-        <div class="inner-box">
+  <body style="background-color: rgb(5, 1, 16);">
+    <section >
+      <div class="container mt-5" id="bg-img">
+        <div class="row g-3 col-lg-12, col-md-8 col-sm-6" id="inner-box">
           <h3>Enter your login details</h3>
-          <form action="#">
-            <label for="fName">Name </label>
-            <input type="text" id="fName" name="fName" value="" /><br /><br />
-            <label for="password">Password </label>
-            <input type="text" id="password" name="password" value="" /> <br />
-            <br />
-            <input type="submit" value="Enter"  id="submit"/><br><br>
-            <details>
-                <summary style="color: red ;">terms and condition</summary>
-                <p >Ensure you type your name and password correctly, we do not have password authenticator</p>
-            </details>
-          </form>
+          <div ">
+            <form action="#">
+                <label for="fName">Your Name </label>
+                <input type="text" id="fName" name="fName" value="" required /><br /><br />
+                <label for="password">Password </label>
+                <input type="text" id="password" name="password" value="" required/> <br />
+                <br />
+                <button type="submit" class="btn btn-primary">Enter</button><br><br>
+                <details>
+                    <summary style="color: red ;">terms and condition</summary>
+                    <p >Ensure you type your name and password correctly, we do not have password authenticator</p>
+                </details>
+              </form>
+          </div>
         </div>
       </div>
     </section>
