@@ -217,16 +217,13 @@
       }
       .h1{
         font-size: 20px;
-        visibility: hidden;
       }
       .text1{
         top: 50%;
-        left: 30%;
-        visibility: hidden;
+        left: 20%;
       }
       .center{
   
-        visibility: visible;
       }
   
     }
